@@ -23,8 +23,27 @@ Below are a few samples of the handwritten digits from the MNIST dataset:
 ![MNIST Sample 1](imgs/img1.png)
 ![MNIST Sample 2](imgs/img2.png)
 
-### Confusion Matrix
+### Metrics :
+``` 
+Accuracy: 0.9892
+Classification Report:
+              precision    recall  f1-score   support
 
+    0 - zero       0.98      1.00      0.99      1175
+     1 - one       0.99      0.99      0.99      1383
+     2 - two       0.99      0.99      0.99      1181
+   3 - three       0.99      0.99      0.99      1253
+    4 - four       0.99      0.99      0.99      1177
+    5 - five       0.99      0.99      0.99      1044
+     6 - six       1.00      0.99      0.99      1166
+   7 - seven       0.99      0.99      0.99      1266
+   8 - eight       0.98      0.99      0.98      1152
+    9 - nine       0.99      0.97      0.98      1203
+
+    accuracy                           0.99     12000
+   macro avg       0.99      0.99      0.99     12000
+weighted avg       0.99      0.99      0.99     12000
+```
 The confusion matrix below shows the performance of the model on the test dataset:
 
 ![Confusion Matrix](imgs/img3.png)
